@@ -1,0 +1,15 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.hero-image{
+    width: 30%;
+}
+
+.hero-text{
+    width: 60%;
+    text-align: center;
+}

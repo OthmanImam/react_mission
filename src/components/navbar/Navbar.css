@@ -1,0 +1,50 @@
+nav{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    box-shadow: 0 0 10px 0.1px;
+}
+.logo-side{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+.logo-name{
+    color: orangered;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+.nav-items{
+display: flex;
+    gap: 2rem;
+}
+.nav-items a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #555;
+    transition: color 0.25s;
+    &:hover{
+        transform: scale(1/1);
+        color: rgb(57, 57, 216);
+    }
+}
+.search{
+    box-shadow: 1px 1px 1px ;
+}
+.search-box,.btn-search {
+    padding: 0.5rem;
+    border: none;
+
+}
+.btn-search{
+    background: orangered;
+    color: #fff;
+    border: 1px solid orangered;
+    &:hover{
+        background: #fff;
+        border: 1px solid orangered;
+        color: orangered;
+    }
+}
